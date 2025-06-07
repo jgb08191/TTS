@@ -2,8 +2,8 @@ import os
 import json
 
 # 경로 설정
-json_root = r"C:\Users\win\Desktop\데이터\011.한국어 아동 음성 데이터\01.데이터\1.Training\라벨링데이터\kor_formatted"
-wav_root = r"C:\Users\win\Desktop\데이터\011.한국어 아동 음성 데이터\01.데이터\1.Training\원천데이터\kor_formatted"
+json_root = r"C:\Users\win\Desktop\데이터\011.한국어 아동 음성 데이터\01.데이터\2.Validation\라벨링데이터\kor_formatted"
+wav_root = r"C:\Users\win\Desktop\데이터\011.한국어 아동 음성 데이터\01.데이터\2.Validation\원천데이터\kor_formatted"
 
 count = 0
 error_count = 0
