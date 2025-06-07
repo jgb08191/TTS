@@ -43,7 +43,21 @@ conda install -c conda-forge montreal-forced-aligner=2.2.17 openfst=1.8.2 kaldi=
 mfa model download acoustic korean_mfa
 mfa model download dictionary korean_mfa
 
+```
 
+### MFA 실행
+
+```bash
+mfa align ^
+  "C:\경로\코퍼스\폴더" ^
+  "C:\경로\korean_mfa.dict" ^
+  "C:\Users\win\Documents\MFA\pretrained_models\acoustic\korean_mfa.zip" ^
+  "C:\경로\출력\폴더" ^
+  -j 6 ^
+  -v ^
+  --clean
+
+  ```
 
 
 
